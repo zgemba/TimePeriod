@@ -8,7 +8,7 @@ A simple class to handle basic time interval operations like overlaps and inclus
 ``` c#
 int thisYear = DateTime.UtcNow.Year;
 DateTime firstOfJanuary = new DateTime(thisYear, 1, 1);
-DateTime tenthOfMarch = new DateTime(thisYear, 3, 1);
+DateTime tenthOfMarch = new DateTime(thisYear, 3, 10);
 
 // create TimePeriod from two DateTime Objects
 TimePeriod yearSoFar = new TimePeriod(firstOfJanuary, DateTime.UtcNow);
